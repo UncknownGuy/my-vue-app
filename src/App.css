@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-image: url(https://wallpapercave.com/wp/eP4xH9j.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* src/styles.css */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+/* Ensure the container takes up the full viewport */
+.colord-container {
+  background-color: aqua; /* Aqua background color */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Flexbox for centering */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  padding: 0; /* Remove any default padding */
+  margin: 0; /* Remove any default margin */
+}
+.poppins-heading {
+  color: #ffffff;
+  padding: 8px;
+  transition: font .5s;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 800px){
+  .poppins-heading {
+    transition: font .5s;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 800px){
+.btn-primary{
+  transition: font .3s;
+  font-family: 'Poppins', sans-serif;
+  font-size: .25rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 8px;
+ }
+}
+
+  .btn-primary{
+    transition: font .3s;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+
+  ::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 800px){
+    ::placeholder{
+      font-family: 'Poppins', sans-serif;
+      font-size: .85rem;
+      font-weight: 500;
+    }
+    }
